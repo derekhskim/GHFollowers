@@ -14,6 +14,7 @@
 		65359A2C2ABE850B008EBC90 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A2B2ABE850B008EBC90 /* UIViewController+.swift */; };
 		65359A332ABF799F008EBC90 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A322ABF799F008EBC90 /* Follower.swift */; };
 		65359A352ABF7A86008EBC90 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A342ABF7A86008EBC90 /* User.swift */; };
+		65359A382ABF7E49008EBC90 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A372ABF7E49008EBC90 /* NetworkManager.swift */; };
 		659A6B0E2ABD5D05001FED64 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A6B0D2ABD5D05001FED64 /* GFButton.swift */; };
 		65F9E8682ABC0AFD0003E144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9E8672ABC0AFD0003E144 /* AppDelegate.swift */; };
 		65F9E86A2ABC0AFD0003E144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9E8692ABC0AFD0003E144 /* SceneDelegate.swift */; };
@@ -32,6 +33,7 @@
 		65359A2B2ABE850B008EBC90 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		65359A322ABF799F008EBC90 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		65359A342ABF7A86008EBC90 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65359A372ABF7E49008EBC90 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		659A6B0D2ABD5D05001FED64 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		65F9E8642ABC0AFD0003E144 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F9E8672ABC0AFD0003E144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		65359A362ABF7E37008EBC90 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				65359A372ABF7E49008EBC90 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		65F9E85B2ABC0AFD0003E144 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		65F9E8662ABC0AFD0003E144 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				65359A362ABF7E37008EBC90 /* Managers */,
 				65359A2F2ABE87FA008EBC90 /* Extension */,
 				65359A302ABE8817008EBC90 /* Model */,
 				65359A2E2ABE87D7008EBC90 /* Views */,
@@ -214,6 +225,7 @@
 				65359A262ABE7F15008EBC90 /* GFTitleLabel.swift in Sources */,
 				65359A332ABF799F008EBC90 /* Follower.swift in Sources */,
 				65359A242ABE7A80008EBC90 /* FollowerListVC.swift in Sources */,
+				65359A382ABF7E49008EBC90 /* NetworkManager.swift in Sources */,
 				65359A2C2ABE850B008EBC90 /* UIViewController+.swift in Sources */,
 				65F9E8682ABC0AFD0003E144 /* AppDelegate.swift in Sources */,
 				65F9E86A2ABC0AFD0003E144 /* SceneDelegate.swift in Sources */,
