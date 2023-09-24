@@ -16,6 +16,8 @@
 		65359A352ABF7A86008EBC90 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A342ABF7A86008EBC90 /* User.swift */; };
 		65359A382ABF7E49008EBC90 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A372ABF7E49008EBC90 /* NetworkManager.swift */; };
 		65359A3B2ABF89EF008EBC90 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A3A2ABF89EF008EBC90 /* GFError.swift */; };
+		65359A3E2ABFB28A008EBC90 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A3D2ABFB28A008EBC90 /* FollowerCell.swift */; };
+		65359A402ABFB2EB008EBC90 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65359A3F2ABFB2EB008EBC90 /* GFAvatarImageView.swift */; };
 		659A6B0E2ABD5D05001FED64 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A6B0D2ABD5D05001FED64 /* GFButton.swift */; };
 		65F9E8682ABC0AFD0003E144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9E8672ABC0AFD0003E144 /* AppDelegate.swift */; };
 		65F9E86A2ABC0AFD0003E144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9E8692ABC0AFD0003E144 /* SceneDelegate.swift */; };
@@ -36,6 +38,8 @@
 		65359A342ABF7A86008EBC90 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		65359A372ABF7E49008EBC90 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		65359A3A2ABF89EF008EBC90 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		65359A3D2ABFB28A008EBC90 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		65359A3F2ABFB2EB008EBC90 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		659A6B0D2ABD5D05001FED64 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		65F9E8642ABC0AFD0003E144 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F9E8672ABC0AFD0003E144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,11 +76,13 @@
 		65359A2E2ABE87D7008EBC90 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				65359A3C2ABFB26D008EBC90 /* Cells */,
 				65359A292ABE80BA008EBC90 /* GFAlertVC.swift */,
 				65359A272ABE8027008EBC90 /* GFBodyLabel.swift */,
 				659A6B0D2ABD5D05001FED64 /* GFButton.swift */,
 				65FF3FA02ABD622E00764E27 /* GFTextField.swift */,
 				65359A252ABE7F15008EBC90 /* GFTitleLabel.swift */,
+				65359A3F2ABFB2EB008EBC90 /* GFAvatarImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				65359A3A2ABF89EF008EBC90 /* GFError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		65359A3C2ABFB26D008EBC90 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65359A3D2ABFB28A008EBC90 /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		65F9E85B2ABC0AFD0003E144 = {
@@ -231,8 +245,10 @@
 				65F9E87E2ABC123D0003E144 /* FavoritesListVC.swift in Sources */,
 				659A6B0E2ABD5D05001FED64 /* GFButton.swift in Sources */,
 				65F9E87C2ABC121A0003E144 /* SearchVC.swift in Sources */,
+				65359A402ABFB2EB008EBC90 /* GFAvatarImageView.swift in Sources */,
 				65359A2A2ABE80BA008EBC90 /* GFAlertVC.swift in Sources */,
 				65359A282ABE8027008EBC90 /* GFBodyLabel.swift in Sources */,
+				65359A3E2ABFB28A008EBC90 /* FollowerCell.swift in Sources */,
 				65359A3B2ABF89EF008EBC90 /* GFError.swift in Sources */,
 				65359A262ABE7F15008EBC90 /* GFTitleLabel.swift in Sources */,
 				65359A332ABF799F008EBC90 /* Follower.swift in Sources */,
